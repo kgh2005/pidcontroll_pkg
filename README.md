@@ -1,6 +1,6 @@
 # PID Controller
 
-Intelligent Robotics High-Tech — Autonomous Driving **PID Controller** in ROS2
+Intelligent Robotics High-Tech - Autonomous Driving **PID Controller** in ROS2
 
 
 ## Development Environment
