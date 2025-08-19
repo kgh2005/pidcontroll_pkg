@@ -1,0 +1,7 @@
+/**:
+  ros__parameters:
+    Kp: 3.0
+    Ki: 0.0001
+    Kd: 0.0
+    R_YAW_MAX: 30
+    L_YAW_MAX: -30
