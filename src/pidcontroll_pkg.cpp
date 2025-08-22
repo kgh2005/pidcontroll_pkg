@@ -21,7 +21,7 @@ PidControllNode::PidControllNode() : Node("pidcontroll_node"), pid_controller_(0
   pid_controller_ = PIDControll(Kp_, Ki_, Kd_, R_YAW_MAX, 1);
 
   delta_ = this->create_subscription<intelligent_humanoid_interfaces::msg::Vision2MasterMsg>(
-      "vision2master_msg", 10,
+      "/vision/data", 10,
       std::bind(&PidControllNode::deltaCallback, this, std::placeholders::_1));
   imu_sub_ = this->create_subscription<sensor_msgs::msg::Imu>(
       "imu/raw_data", 10,
